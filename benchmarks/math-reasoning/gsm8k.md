@@ -101,6 +101,8 @@ result = OpenCompass.run(config)
 
 ## 📝 输入输出示例
 
+> **注意**: 以下示例基于GSM8K数据集的典型格式，用于说明评测集的结构。真实题目请从[GSM8K GitHub仓库](https://github.com/openai/grade-school-math)或[Hugging Face](https://huggingface.co/datasets/gsm8k)获取。
+
 ### 示例1: 简单计算
 
 **输入（Input）**:
