@@ -112,6 +112,8 @@ lm_eval --model hf \
 ### 计算方式
 
 ```python
+from math import comb
+
 def pass_at_k(n, c, k):
     """
     n: 总样本数
