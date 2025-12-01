@@ -6,10 +6,12 @@
 
 | 评测集 | 测试条目 | 输入长度 | 输出长度 | 文档 |
 |--------|---------|---------|---------|------|
+| [MMLU](mmlu.md) | ~14,000 | 1-2句 | 选项 | [查看](mmlu.md) |
 | [MMLU-Pro](mmlu-pro.md) | ~14,000 | 1-2句 | 选项 | [查看](mmlu-pro.md) |
 | [C-Eval](c-eval.md) | 13,948 | 1-2句 | 选项 | [查看](c-eval.md) |
 | [Xiezhi](xiezhi.md) | 249,587 | 题目描述 | 选项 | [查看](xiezhi.md) |
 | [GPQA Diamond](gpqa-diamond.md) | 待定 | 1-2段 | 短答案 | [查看](gpqa-diamond.md) |
+| [SimpleQA](simpleqa.md) | 待定 | 1-2句 | 简短答案 | [查看](simpleqa.md) |
 | [IFBench](ifbench.md) | 待定 | 交互任务 | 交互响应 | [查看](ifbench.md) |
 | [CLUE](clue.md) | 因任务而异 | 几十-几百字符 | 标签/答案 | [查看](clue.md) |
 

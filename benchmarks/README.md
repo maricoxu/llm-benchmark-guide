@@ -20,10 +20,12 @@
 ### 按评测集名称
 
 #### 语言理解类
-- [MMLU-Pro](language-understanding/mmlu-pro.md) - 多领域语言理解
+- [MMLU](language-understanding/mmlu.md) - 多任务语言理解（标准版）
+- [MMLU-Pro](language-understanding/mmlu-pro.md) - 多领域语言理解（16K长上下文）
 - [C-Eval](language-understanding/c-eval.md) - 中文综合能力评估
 - [Xiezhi](language-understanding/xiezhi.md) - 领域知识评估
 - [GPQA Diamond](language-understanding/gpqa-diamond.md) - 科学专业知识
+- [SimpleQA](language-understanding/simpleqa.md) - 简单问答评测集
 - [IFBench](language-understanding/ifbench.md) - 人机交互
 
 #### 数学推理类
@@ -35,15 +37,16 @@
 - [HumanEval](code-generation/humaneval.md) - Python编程能力
 - [LiveCodeBench](code-generation/livecodebench.md) - 真实代码任务
 - [MBPP](code-generation/mbpp.md) - 入门级Python编程
+- [Code Generation Lite](code-generation/code-generation-lite.md) - 代码生成轻量版
 - [SciCode](code-generation/scicode.md) - 科学计算代码
 
 ### 按使用场景
 
-- **通用能力评估**: [MMLU-Pro](language-understanding/mmlu-pro.md)、[C-Eval](language-understanding/c-eval.md)
+- **通用能力评估**: [MMLU](language-understanding/mmlu.md)、[MMLU-Pro](language-understanding/mmlu-pro.md)、[C-Eval](language-understanding/c-eval.md)
 - **数学能力评估**: [AIME](math-reasoning/aime.md)、[GSM8K](math-reasoning/gsm8k.md)、[MATH500](math-reasoning/math500.md)
 - **代码能力评估**: [HumanEval](code-generation/humaneval.md)、[LiveCodeBench](code-generation/livecodebench.md)
 - **多模态能力评估**: [MMMU](multimodal/mmmu.md)、[MMStar](multimodal/mmstar.md)、[HallusionBench](multimodal/hallusionbench.md)、[Al2D_TEST](multimodal/al2d-test.md)、[OCRBench](multimodal/ocrbench.md)
-- **综合能力评估**: [GeoBench](comprehensive/geobench.md)、[Terminal Bench Hard](comprehensive/terminal-bench.md)、[τ²-Bench Telecom](comprehensive/tau2-bench-telecom.md)
+- **综合能力评估**: [AGIEval](comprehensive/agieval.md)、[GeoBench](comprehensive/geobench.md)、[Terminal Bench Hard](comprehensive/terminal-bench.md)、[τ²-Bench Telecom](comprehensive/tau2-bench-telecom.md)
 - **推理能力评估**: [BBH](reasoning/bbh.md)、[AA-LCR](reasoning/aa-lcr.md)、[Humanity's Last Exam](reasoning/humanitys-last-exam.md)
 
 ---
@@ -97,12 +100,12 @@
 
 | 分类 | 评测集数量 | 主要评测集 |
 |------|-----------|-----------|
-| 语言理解 | 10+ | MMLU-Pro、C-Eval、Xiezhi、GPQA Diamond、IFBench |
+| 语言理解 | 10+ | MMLU、MMLU-Pro、C-Eval、Xiezhi、GPQA Diamond、SimpleQA、IFBench |
 | 数学推理 | 8+ | AIME2024/2025、GSM8K、MATH500 |
-| 代码生成 | 6+ | HumanEval、LiveCodeBench v5/v6、MBPP、SciCode |
+| 代码生成 | 6+ | HumanEval、LiveCodeBench v5/v6、MBPP、Code Generation Lite、SciCode |
 | 推理能力 | 5+ | BBH、AA-LCR、Humanity's Last Exam |
 | 多模态 | 8+ | MMMU、MMStar、HallusionBench、Al2D_TEST、OCRBench |
-| 综合能力 | 5+ | GeoBench、Terminal Bench Hard、τ²-Bench Telecom |
+| 综合能力 | 5+ | AGIEval、GeoBench、Terminal Bench Hard、τ²-Bench Telecom |
 
 **总计**: 40+ 评测集，持续更新中...
 

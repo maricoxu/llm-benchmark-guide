@@ -9,6 +9,7 @@
 | [HumanEval](humaneval.md) | 164 | 2-3句 | 5-50行 | [查看](humaneval.md) |
 | [LiveCodeBench](livecodebench.md) | v5-167, v6-175 | 代码+描述 | 10-100行 | [查看](livecodebench.md) |
 | [MBPP](mbpp.md) | 974 | 1-2段 | 5-30行 | [查看](mbpp.md) |
+| [Code Generation Lite](code-generation-lite.md) | 待定 | 1-3句 | 5-30行 | [查看](code-generation-lite.md) |
 | [SciCode](scicode.md) | 待定 | 科学计算问题 | 科学计算代码 | [查看](scicode.md) |
 
 ---

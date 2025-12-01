@@ -6,6 +6,7 @@
 
 | 评测集 | 测试条目 | 输入长度 | 输出长度 | 文档 |
 |--------|---------|---------|---------|------|
+| [AGIEval](agieval.md) | 待定 | 1-5句 | 选项/答案/过程 | [查看](agieval.md) |
 | [GeoBench](geobench.md) | 待定 | 地学问题 | 答案/过程 | [查看](geobench.md) |
 | [Terminal Bench Hard](terminal-bench.md) | 待定 | 终端任务 | 命令/方案 | [查看](terminal-bench.md) |
 | [τ²-Bench Telecom](tau2-bench-telecom.md) | 待定 | 电信任务 | 协作方案 | [查看](tau2-bench-telecom.md) |
